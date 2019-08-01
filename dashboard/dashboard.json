@@ -1,0 +1,200 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 0,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "ba90a6d1-4039-4788-a15f-6ecfedc68422",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "VMware Tools - 10.3.X",
+      "rank": 81,
+      "shared": false,
+      "states": [{
+         "key": "permDashboardTime_dashboard_ba90a6d1-4039-4788-a15f-6ecfedc68422",
+         "value": "o%3AdateRange%3Ds%253Alast7Days%5EdateRangeText%3Ds%253ALast%25207%2520days"
+      }],
+      "temporary": false,
+      "userId": "b59d581a-9b93-4155-b94f-708edbb02cb8",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel16202-2",
+                     "isStringMetric": false,
+                     "metricKey": "populationGroup|populationTotalCount",
+                     "metricName": "Population|Total Count",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceId": "resource:id:0_::_",
+                     "resourceKindId": "002009ContainerEnvironment",
+                     "resourceName": "VMware Tools 10.3",
+                     "unit": null,
+                     "yellowBound": null
+                  }]
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Metric Chart"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 4,
+               "y": 1
+            },
+            "height": 324,
+            "id": "fad463c7-2895-4c3f-b7f6-31b395c18d20",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_ba90a6d1-4039-4788-a15f-6ecfedc68422_fad463c7-2895-4c3f-b7f6-31b395c18d20",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_ba90a6d1-4039-4788-a15f-6ecfedc68422_fad463c7-2895-4c3f-b7f6-31b395c18d20",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_ba90a6d1-4039-4788-a15f-6ecfedc68422_fad463c7-2895-4c3f-b7f6-31b395c18d20",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_ba90a6d1-4039-4788-a15f-6ecfedc68422_fad463c7-2895-4c3f-b7f6-31b395c18d20",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Metric Chart",
+            "type": "MetricChart",
+            "x": 1,
+            "y": 1
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [{
+                     "filterTypes": [{
+                        "condition": "EQUALS",
+                        "filterType": "resourceName",
+                        "resourceName": "VMware Tools 10.3"
+                     }],
+                     "resourceKind": "002009ContainerEnvironment"
+                  }],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 1000,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "id": "extModel15218-1",
+                     "isStringMetric": false,
+                     "link": "",
+                     "metricKey": "populationGroup|populationTotalCount",
+                     "metricName": "Population|Total Count",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Universe",
+                     "unit": null,
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [{
+                     "colorMethod": 1,
+                     "id": "extModel19382-1",
+                     "isStringMetric": false,
+                     "link": "",
+                     "metricKey": "populationGroup|populationTotalCount",
+                     "metricName": "Population|Total Count",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceId": "resource:id:0_::_",
+                     "resourceKindId": "002009ContainerEnvironment",
+                     "resourceName": "VMware Tools 10.3",
+                     "unit": null,
+                     "yellowBound": null
+                  }]
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 1},
+               "resInteractionMode": null,
+               "resource": [{
+                  "id": "resource:id:0_::_",
+                  "name": "VMware Tools 10.3"
+               }],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "VM Count",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "e696991c-ae4b-4a3a-a851-7180e61d7712",
+            "title": "VM Count",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "Container",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "VMware Tools 10.3",
+         "resourceKindKey": "Environment"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "Container",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Universe"
+      }]
+   },
+   "uuid": "e3c3f06a-5f4a-484b-8c9a-7b2437585554"
+}
